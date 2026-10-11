@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2167350515264055886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2167350515264055884}
+  - component: {fileID: 2167350515264055887}
+  m_Layer: 0
+  m_Name: IntroCutscene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2167350515264055884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167350515264055886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.750734, y: -4.5537252, z: 28.846453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &2167350515264055887
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167350515264055886}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: b4b099851a9180341963a90fe556b6d7, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5491913504761940984, guid: b4b099851a9180341963a90fe556b6d7, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2575015077280743168, guid: b4b099851a9180341963a90fe556b6d7, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8969409362191217387, guid: b4b099851a9180341963a90fe556b6d7, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -328555171779266680, guid: b4b099851a9180341963a90fe556b6d7, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - 776d3b0398c7d0340944935c352e2071: {fileID: 0}
+    - 0afc986480c1d2046b887998fcbb6b97: {fileID: 0}
+    - fa77c049d6618bc4a94b235cc5568ee0: {fileID: 0}
+    - 56b73c43c88910842b8f318d9acba9bb: {fileID: 0}
+    - 51a6ec220d29d734d9fb0a3f7207b6b2: {fileID: 0}
